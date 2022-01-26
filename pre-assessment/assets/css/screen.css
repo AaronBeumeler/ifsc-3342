@@ -67,6 +67,16 @@ body {
 	border-bottom-style: solid;
 	border-bottom-color: #CCC;
 }
+a:link {
+	color: rgb(53, 190, 60);
+	text-decoration: none;
+}
+a:visited {
+	color: rgb(146, 96, 211);
+}
+a:hover {
+	text-decoration: underline;
+}
 #content {
 	margin: 20px;
 }
