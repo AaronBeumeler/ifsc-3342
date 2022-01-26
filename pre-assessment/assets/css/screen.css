@@ -92,10 +92,6 @@ a:hover {
 	margin-left: 12px;
 	margin-bottom: 12px;
 }
-a:hover .man {
-	box-shadow: -2px 3px 3px grey;
-	transition: box-shadow 0.3s ease-in-out 0s;
-}
 .alert {
 	background-color: rgb(145, 206, 148);
 	padding: 12px;
