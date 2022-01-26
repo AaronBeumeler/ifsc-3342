@@ -8,7 +8,6 @@ outside the border.
 	padding: 0px;
 }
 body {
-	color: whitesmoke;
 	text-align: center;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 16px;
@@ -22,13 +21,16 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	text-align: left;
+	background-color: #FFF;
 	margin-top: 20px;
 	border: 1px solid #CCC;
+	margin-bottom: 30px;
 }
 #header {
 }
 #header h1 a {
 	background-image: url('../img/assessment-4.jpg');
+	display: block;
 	width: 800px;
 	height: 140px;
 	text-indent: 100%;
@@ -72,16 +74,21 @@ body {
 	margin-top: 5px;
 	margin-bottom: 15px;
 }
-#man {
+.man {
 	float: right;
-	width: 210px;
-	border: 2px solid rgb(241, 241, 241);
-	margin: 15px;
+	width: 230px;
+	border: 2px solid rgb(143, 143, 143);
+	border-radius: 5px;
+	margin-left: 12px;
+	margin-bottom: 12px;
 }
 .alert {
-	background-color: #CCC;
-	padding: 10px;
+	background-color: rgb(145, 206, 148);
+	padding: 12px;
 	color: #000;
+	border: 2px solid rgb(53, 190, 60);
+	border-radius: 3px;
+	clear: both;
 }
 #footer {
 	background-color: #000;
@@ -95,14 +102,11 @@ body {
 	margin-left: 20px;
 }
 h2 {
-	color: rgb(221, 221, 221);
+	color: rgb(131, 68, 214);
 }
 h3 {
-	color: rgb(141, 141, 141);
+	color: rgb(46, 97, 209);
 }
 h4 {
-	color: rgb(73, 73, 73);
-}
-.clear {
-	clear: both;
+	font-weight: 600;
 }
