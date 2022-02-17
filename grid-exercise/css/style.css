@@ -83,43 +83,92 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  .container {
-    width: 960px;
+  body {
+    width: 100%;
+  }
+  
+  .container {/*956px*/
+    width: 90%;
     margin: 20px auto;
     border: 1px solid #000;
-    background-image:url("../img/grid.png");
+    /*background-image:url("../img/grid.png");*/
   }
   
   header.primary {
     background: rgba(0, 0, 0, 0.4);
-    width: 876px;
-    margin: 20px;
+    width: 91.3318%;/*876px*/
+    margin: 2.0920%;/*20px*/
     float: left;
-    padding: 20px;
+    padding: 2.2831%;/*20px*/
   }
   
   #content {
     background: rgba(0, 0, 0, 0.6);
     float: left;
-    width: 564px;
-    margin-left: 20px;
-    padding: 20px;
+    width: 58.9958%;/*564px*/
+    margin-left: 2.0920%;/*20px*/
+    padding: 2.0920%;/*20px*/
   }
   
   aside {
-    width: 292px;
+    width: 26.3%;/*292px*/
     float: left;
     background: rgba(0, 0, 0, 0.3);
-    margin-left: 20px;
+    margin-left: 2.0920%;/*20px*/
+    padding: 2.0920%;/*20px*/
   }
   
   footer.primary {
     background: rgba(0, 0, 0, 0.4);
-    width: 876px;
-    margin: 20px;
+    width: 91.6318%;/*876px*/
+    margin: 2.0920%;/*20px*/
     float: left;
-    padding: 20px;
+    padding: 2.2831%;/*20px*/
   }
+
+  /* ==========================================================================
+   My Custom Media Queries
+   ========================================================================== */
+
+@media screen and (max-width: 600px) {
+  .container {/*956px*/
+    width: 100%;
+    margin: auto;
+    border: none;
+    /*background-image:url("../img/grid.png");*/
+  }
+
+  header.primary {
+    background: rgba(0, 0, 0, 0.4);
+    width: 98%;/*876px*/
+    margin: 0%;/*20px*/
+    float: left;
+    padding: 2.2831%;/*20px*/
+    margin-bottom: 3px;
+  }
+
+  #content {
+    background: rgba(0, 0, 0, 0.6);
+    width: 98%;/*564px*/
+    margin-left: 0%;/*20px*/
+    margin-bottom: 3px;
+  }
+  
+  aside {
+    width: 98%;/*292px*/
+    background: rgba(0, 0, 0, 0.3);
+    margin-left: 0%;/*20px*/
+    margin-bottom: 3px;
+  }
+
+  footer.primary {
+    background: rgba(0, 0, 0, 0.4);
+    width: 98%;/*876px*/
+    margin: 0%;/*20px*/
+    float: left;
+    padding: 2.2831%;/*20px*/
+  }
+}
 
 /* ==========================================================================
    Helper classes
