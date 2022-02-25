@@ -100,6 +100,7 @@ h3 {
 }
 img {
   margin: 5%;
+  margin-top: 0%;
   width: 90%;
   border: 1px solid black;
 }
