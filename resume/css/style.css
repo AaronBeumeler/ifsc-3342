@@ -119,7 +119,7 @@ nav a:visited {
   color: #4d4d4d;
   text-transform: uppercase;
   font-size: 0.75em;
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.55);
   transition: background-color 0.5s ease;
   color: #fff;
 }
@@ -152,6 +152,7 @@ main h1 {
   justify-content: center;
   text-align: center;
   font-variant: small-caps;
+  font-weight: 200;
 }
 main h1:before,
 main h1:after {
@@ -192,7 +193,8 @@ dd{
   border-bottom: 1px solid #2b3a43;
 }
 .related-links{
-  display:flex;
+  display: grid;
+  grid-template: auto / 1fr 1fr 1fr;
   justify-content:center;
   list-style:none;
   padding:0;
@@ -209,7 +211,7 @@ dd{
   color:#222222;
   text-transform:uppercase;
   font-size:.75em;
-  background:rgba(0,0,0,.65);
+  background:rgba(0,0,0,.55);
   transition: background-color 0.5s ease;
   color:#fff;
 }
@@ -217,7 +219,7 @@ dd{
   background:rgba(0,0,0,.95);
 }
 .related-links li{
-  margin-right:10px;
+  margin-right:0px;
 }
 article {
   margin-bottom: 35px;
