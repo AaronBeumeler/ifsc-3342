@@ -193,8 +193,7 @@ dd{
   border-bottom: 1px solid #2b3a43;
 }
 .related-links{
-  display: grid;
-  grid-template: auto / 1fr 1fr 1fr;
+  display:flex;
   justify-content:center;
   list-style:none;
   padding:0;
@@ -219,7 +218,7 @@ dd{
   background:rgba(0,0,0,.95);
 }
 .related-links li{
-  margin-right:0px;
+  margin-right:10px;
 }
 article {
   margin-bottom: 35px;
