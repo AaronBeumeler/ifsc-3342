@@ -174,23 +174,41 @@ img {
   height:auto;
   width: 100%;
 }
-dl{
+dl {
   display: grid;
   grid-template-columns: 2fr 3fr;
   /* Shorthand */
   grid-template: auto / 2fr 3fr;
 }
-dt{
+dt {
   font-weight: 700;
   grid-column: 1;
   padding: 10px 10px;
   border-bottom: 1px solid #2b3a43;
 }
-dd{
+dd {
   margin: 0;
   grid-column: 2;
   padding: 10px 0;
   border-bottom: 1px solid #2b3a43;
+}
+.certificate dl {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  /* Shorthand */
+  grid-template: auto / 3fr 2fr;
+}
+.certificate dt {
+    font-weight: 700;
+    grid-column: 1;
+    padding: 0px;
+    border-bottom: none;
+}
+.certificate dd {
+    margin: 0;
+    grid-column: 2;
+    padding: 0px 0px;
+    border-bottom: none;
 }
 .related-links{
   display:flex;
