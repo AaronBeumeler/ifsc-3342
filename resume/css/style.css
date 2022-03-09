@@ -134,7 +134,7 @@ body {
   line-height:1.6;
 }
 a:link, a:visited{
-  color:rgb(196, 187, 160);
+  color: whitesmoke;
 } 
 main h2 {
   font-weight: 200;
