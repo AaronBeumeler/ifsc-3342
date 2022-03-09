@@ -381,7 +381,7 @@ footer {
   /* Style adjustments for high resolution devices */
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 635px) {
   body {
     padding-top: 25px;
   }
