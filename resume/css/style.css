@@ -101,6 +101,20 @@ html {
 main {
   padding: 1px 20px;
 }
+main article {
+  line-height: 1.2;
+}
+main {
+  display:grid;
+  grid-gap:.5em;
+  grid-template-areas:
+    "title"
+    "about"
+    "skills"
+    "experience"
+    "education"
+    "awards";
+}
 .container {
   margin:0 auto;
   background:#405663;
@@ -127,6 +141,7 @@ nav a:hover {
   background: rgba(0, 0, 0, 0.90);
 }
 body {
+  padding-bottom: 30px;
   font-family: 'Open Sans', sans-serif;
   background:#efefef;
   color: whitesmoke;
@@ -136,10 +151,6 @@ body {
 a:link, a:visited{
   color: whitesmoke;
 } 
-main h2 {
-  font-weight: 200;
-  border-bottom: 1px solid #2b3a43;
-}
 h3 {
   font-weight: 300;
   margin-bottom: 0;
@@ -153,6 +164,10 @@ h3 {
   text-align: center;
   font-variant: small-caps;
   font-weight: 200;
+}
+main h2 {
+  font-weight: 200;
+  border-bottom: 1px solid #2b3a43;
 }
 main h1:before,
 main h1:after {
@@ -259,17 +274,17 @@ article {
 #awards{
   grid-area: awards;
 }
-main {
-  display:grid;
-  grid-gap:.5em;
-  grid-template-areas:
-    "title"
-    "about"
-    "skills"
-    "experience"
-    "education"
-    "awards";
+footer {
+  text-align: center;
+  border: 1px solid #000; 
+  max-width:400px;
+  margin: 0 auto;
+  background-color: #202B31;
+  font-size: .8em;
+  padding: 5px;
+  color: rgb(160, 160, 160);
 }
+
 
 
 /* ==========================================================================
@@ -436,6 +451,9 @@ main {
   }
   main {
     padding: 1px 30px;
+  }
+  footer { 
+    max-width: 900px;
   }
 }
 
