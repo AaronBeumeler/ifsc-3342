@@ -85,11 +85,10 @@
      ========================================================================== */
 
   .container {
-    
   }
   header {
     max-width: 960px;
-    margin: 0;
+    margin: auto;
     border: solid black 2px;
     box-shadow: 0px 8px 10px #222;
     background-color: #999;
