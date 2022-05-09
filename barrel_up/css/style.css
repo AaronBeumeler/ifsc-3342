@@ -87,6 +87,10 @@ textarea {
   width: 200px;
 }
 
+#player-img {
+  width: 100vw;
+}
+
 #what-is-bu {
   margin-left: 20px;
   margin-right: 20px;
