@@ -124,12 +124,12 @@ h5 {
 
 .hit-pic {
   padding: 15px;
-  margin-bottom: 15px;
-  width: 100%;
+  margin-top: 10px;
+  width: 100vw;
 }
 
 #hitting-text {
-  padding-top: 0px;
+  padding-top: 15px;
 }
 
 footer {
@@ -241,8 +241,8 @@ footer {
     "hitting-title hitting-title"
     "hitting-text hitting-img";
   }
-  #tee-pic {
-    margin-bottom: 15px;
+  #hit-pic {
+    margin-top: 40px;
   }
 }
 
