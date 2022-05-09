@@ -236,7 +236,6 @@ footer {
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-    "top-pic top-pic"
     "what-is-title what-is-title"
     "tee-img tee-text"
     "hitting-title hitting-title"
@@ -255,7 +254,6 @@ footer {
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-    "top-pic top-pic"
     "what-is-title hitting-title"
     "tee-img hit-pic"
     "tee-text hitting-text";
@@ -269,10 +267,6 @@ footer {
   #hitting-title {
     margin-top: 0px;
   }
-}
-
-#top-pic {
-  grid-area: top-pic;
 }
 
 #tee-img {
