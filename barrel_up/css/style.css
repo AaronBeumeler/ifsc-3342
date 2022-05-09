@@ -244,6 +244,9 @@ footer {
   #hit-pic {
     margin-top: 40px;
   }
+  #hitting-title {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -261,6 +264,9 @@ footer {
   #hit-pic {
     padding-bottom: 0px;
   }
+  #hitting-title {
+    margin-top: 0px;
+  }
 }
 
 #tee-img {
@@ -277,7 +283,7 @@ footer {
 
 #hit-pic {
   grid-area: hit-pic;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 #hitting-title {
