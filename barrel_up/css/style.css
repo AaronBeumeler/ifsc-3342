@@ -87,15 +87,27 @@ textarea {
   width: 200px;
 }
 
+#what-is-bu {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h5 {
+  margin-top: 15px;
+}
+
 .section-title {
   font-weight: bold;
   border-bottom: 1px solid black;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 10px;
   padding-left: 10px;
   padding-bottom: 5px;
+  margin-top: 10px;
 }
+
+#tee-img {
+}
+
+
 
 
 /* ==========================================================================
