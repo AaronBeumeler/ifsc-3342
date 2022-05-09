@@ -83,21 +83,27 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 .nav-logo {
   width: 200px;
+}
+
+#hitting-title {
+  border-color: #fff;
 }
 
 #player-img {
   width: 100vw;
 }
 
-#what-is-bu {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
 h5 {
   margin-top: 15px;
+  padding: 20px;
+}
+
+.black-section {
+  color: #fff;
+  background-color: #222;
 }
 
 .section-title {
@@ -106,10 +112,26 @@ h5 {
   padding-left: 10px;
   padding-bottom: 5px;
   margin-bottom: 20px;
-  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 20px;
+}
+
+div {
+  text-align: center;
 }
 
 #tee-img {
+  width: 350px;
+  margin: auto;
+}
+
+#player-img {
+  width: 100vw;
+  margin: auto;
+}
+
+.hit-pic {
 }
 
 
@@ -193,20 +215,57 @@ h5 {
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
+   Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media screen and (min-width: 481px) {
+  #section-1 {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "what-is-title what-is-title"
+    "tee-img tee-text";
+  }
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+@media screen and (min-width: 760px) {
+  #section-1 {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "what-is-title hitting-title"
+    "tee-img hitting"
+    "tee-text hitting-text";
+  }
+  #tee-img {
+    width: 300px;
+  }
+}
+
+
+
+#tee-img {
+  grid-area: tee-img;
+}
+
+#tee-text {
+  grid-area: tee-text;
+}
+
+#what-is-title {
+  grid-area: what-is-title;
+}
+
+#hitting {
+  grid-area: hitting;
+}
+
+#hitting-title {
+  grid-area: hitting-title;
+}
+
+#hitting-text {
+  grid-area: hitting-text;
 }
 
 /* ==========================================================================
