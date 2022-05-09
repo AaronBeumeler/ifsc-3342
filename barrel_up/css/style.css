@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  background-color: #fff;
 }
 
 /*
@@ -84,26 +85,17 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+main {
+  width: 100vw;
+}
+
 .nav-logo {
   width: 200px;
-}
-
-#hitting-title {
-  border-color: #fff;
-}
-
-#player-img {
-  width: 100vw;
 }
 
 h5 {
   margin-top: 15px;
   padding: 20px;
-}
-
-.black-section {
-  color: #fff;
-  background-color: #222;
 }
 
 .section-title {
@@ -117,21 +109,28 @@ h5 {
   padding-top: 20px;
 }
 
-div {
+.center {
   text-align: center;
 }
 
 #tee-img {
   width: 350px;
-  margin: auto;
-}
-
-#player-img {
-  width: 100vw;
-  margin: auto;
 }
 
 .hit-pic {
+  padding: 15px;
+}
+
+#hitting-text {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+footer {
+  text-align: center;
+  color: gray;
+  background-color: #222;
+  padding: 15px;
 }
 
 
@@ -218,31 +217,31 @@ div {
    Media Queries
    ========================================================================== */
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 600px) {
   #section-1 {
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
     "what-is-title what-is-title"
-    "tee-img tee-text";
+    "tee-img tee-text"
+    "hitting-title hitting-title"
+    "hitting-text hitting-img";
   }
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 800px) {
   #section-1 {
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
     "what-is-title hitting-title"
-    "tee-img hitting"
+    "tee-img hit-pic"
     "tee-text hitting-text";
   }
   #tee-img {
     width: 300px;
   }
 }
-
-
 
 #tee-img {
   grid-area: tee-img;
@@ -256,8 +255,8 @@ div {
   grid-area: what-is-title;
 }
 
-#hitting {
-  grid-area: hitting;
+#hit-pic {
+  grid-area: hit-pic;
 }
 
 #hitting-title {
