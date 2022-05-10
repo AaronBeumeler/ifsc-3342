@@ -97,7 +97,16 @@
     color: #222
   }
 header h1 {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Permanent Marker', Helvetica;
+  font-size: 3.5em;
+  padding: 0px;
+  margin: 0px;
+}
+
+h3 {
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 10px;
 }
 
   nav {
