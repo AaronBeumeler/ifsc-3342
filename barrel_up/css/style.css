@@ -231,7 +231,7 @@ footer {
    Media Queries
    ========================================================================== */
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 700px) {
   #section-1 {
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -249,7 +249,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 950px) {
   #section-1 {
     display:grid;
     grid-template-columns: 1fr 1fr;
