@@ -87,7 +87,7 @@ textarea {
 
 body {
   display: block;
-  width: 100vw;
+  width: 100%;
 }
 
 .nav-logo {
@@ -95,7 +95,7 @@ body {
 }
 
 nav {
-  width: 100vw;
+  width: 100%;
 }
 
 h5 {
@@ -125,7 +125,7 @@ h5 {
 .hit-pic {
   padding: 15px;
   margin-top: 10px;
-  width: 100vw;
+  width: 100%;
 }
 
 #hitting-text {
@@ -143,7 +143,7 @@ footer {
 }
 
 #top-pic {
-  width: 100vw;
+  max-width: 100%;
   overflow-x: hidden;
 }
 
