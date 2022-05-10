@@ -247,6 +247,9 @@ footer {
   #hitting-title {
     margin-top: 20px;
   }
+  #top-pic {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 950px) {
