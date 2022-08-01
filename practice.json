@@ -3,8 +3,8 @@
   "name":"John"
   ,"guests":"3"
   ,"status":"true"
-},
- {
+}
+ ,{
    "name":"Adam"
    ,"guests":"4"
    ,"status":"false"
